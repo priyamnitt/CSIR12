@@ -83,7 +83,6 @@ while(1):
         exit_e = exit_array[end_index]
         
     # compute vehicles using O(1)
-    print(start_index, end_index)
     print("No of vehicles entered - ", enter_e - enter_s)
     print("No of vehicles exited - ", exit_e - exit_s)
     
