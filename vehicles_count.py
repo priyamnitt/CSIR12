@@ -23,7 +23,6 @@ while(1):
 # here we perform the precomputation in order to process queries fastly - O(N) where N = size of vehicles array
 entering_array = []
 exit_array = []
-mp = {}
 
 # Although the array will be sorted with time but just to take care of case when someone enters data not in sync 
 vehicles.sort(key = lambda x:x[0])
